@@ -1,0 +1,410 @@
+
+body {
+	margin: 0;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 12px 0;
+ 
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 99px;
+  height: 12px;
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+.rectangle
+{
+width: 870px;
+height: 269px;
+background-color: #f0f0f0;
+margin: auto;
+
+}
+.rectangle img
+{
+ margin-left: 30px;
+ margin-top: 15px;
+}
+
+
+.text
+{
+float:right;
+margin-top: 14px; /* Отступ справа */
+margin-right: 110px;
+color: #000000;
+font-family: Tahoma;
+font-size: 21px;
+line-height: 28px;
+font-weight: 800;
+}
+
+.text2
+{
+
+font-family: Tahoma;
+margin-top: -150px; 
+margin-left:445px;
+font-size: 13px;
+color: #8d8d8d;
+font-family: "Times New Roman";
+font-weight: 400;
+line-height: 22px;
+
+
+
+}
+.button
+{
+  margin-top: 5px;
+  text-align: center;
+  color: #fefefe;
+  font-family: Tahoma;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-left: 51%;
+  width: 115px;
+height: 29px;
+background-color: #da4137;
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.strategy
+{
+margin-top: 70px;
+color: #000000;
+font-family: Tahoma;
+font-size: 18px;
+font-weight: 600;
+line-height: 19px;
+}
+.strategycontent
+{
+  color: #8d8d8d;
+  font-family: "Times New Roman PSMT";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+
+}
+
+
+.parent
+{
+
+	height: 80px;
+}
+.parent img
+{
+  margin: 0%;
+margin-top: 0%;
+margin-right: 10px;
+}
+.child
+{
+	height: 100px;
+	display: inline-block;
+
+  width: 24%;
+  color: #000000;
+  font-family: "Times New Roman PS - Italic MT";
+  font-size: 14px;
+}
+
+.info
+{
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.info p
+{
+  color: #8d8d8d;
+  font-family: "Times New Roman PSMT";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+@media only screen and (max-width: 600px) {
+.container {
+  width: 50%;
+  
+  margin-left:5%; 
+  
+}
+}
+@media only screen and (max-width: 600px) {
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+  margin-bottom: 20px;
+}
+}
+@media only screen and (max-width: 600px) {
+.logo {
+  float: left;
+  padding: 12px 0;
+ 
+}
+}
+@media only screen and (max-width: 600px) {
+nav {
+  float: right;
+}
+}
+@media only screen and (max-width: 600px) {
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+}
+@media only screen and (max-width: 600px) {
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+  padding-top: 20px;
+
+  position: relative;
+}
+}
+@media only screen and (max-width: 600px) {
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 99px;
+  height: 12px;
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+}
+@media only screen and (max-width: 600px) {
+
+nav a:hover {
+  color: #000;
+}
+}
+@media only screen and (max-width: 600px) {
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+}
+@media only screen and (max-width: 600px) {
+nav a:hover::before {
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.rectangle
+{
+  
+width: 355px;
+height: 560px;
+background-color: #f0f0f0;
+margin: auto;
+
+}
+}
+@media only screen and (max-width: 600px) {
+.rectangle img
+{
+  width:90% ;
+
+ margin-left: 20px;
+ margin-top: 5px;
+}
+}
+@media only screen and (max-width: 600px) {
+.text
+{
+float:right;
+margin-top: 30px; 
+margin-bottom: 5%;
+margin-right: 15px;
+color: #000000;
+font-family: Tahoma;
+font-size: 21px;
+line-height: 28px;
+font-weight: 800;
+}
+}
+@media only screen and (max-width: 600px) {
+.text2
+{
+
+font-family: Tahoma;
+margin-top: -20px; 
+margin-left:23px;
+font-size: 13px;
+color: #8d8d8d;
+font-family: "Times New Roman";
+font-weight: 400;
+line-height: 22px;
+
+}
+}
+@media only screen and (max-width: 600px) {
+.button
+{
+  margin-top: 5px;
+  text-align: center;
+  color: #fefefe;
+  font-family: Tahoma;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-left: 51%;
+  width: 115px;
+height: 29px;
+background-color: #da4137;
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0) 100%);
+}
+}
+@media only screen and (max-width: 600px) {
+.strategy
+{
+margin-top: 70px;
+color: #000000;
+font-family: Tahoma;
+font-size: 18px;
+font-weight: 600;
+line-height: 19px;
+}
+}
+@media only screen and (max-width: 600px) {
+.strategycontent
+{
+  color: #8d8d8d;
+  font-family: "Times New Roman PSMT";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+
+}
+}
+
+@media only screen and (max-width: 600px) {
+.parent
+{
+
+	height: 130px;
+}
+}
+@media only screen and (max-width: 600px) {
+.parent img
+{
+width: 60%;
+  margin: 0%;
+margin-top: 0%;
+margin-right: 10px;
+
+}
+}
+@media only screen and (max-width: 600px) {
+.child
+{
+
+	display: inline-block;
+  width: 23%;
+  color: #000000;
+  font-family: "Times New Roman PS - Italic MT";
+  font-size: 12px;
+}
+}
+@media only screen and (max-width: 600px) {
+.info
+{
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: 600px;
+  line-height: 19px;
+}
+}
+@media only screen and (max-width: 600px) {
+.info p
+{
+  width: 90%;
+  color: #8d8d8d;
+  font-family: "Times New Roman PSMT";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+}
